@@ -1,3 +1,5 @@
 {
-  "item.moedahcbr.um_centavo": "A cent (₵1)"
+  "item.moedahcbr.um_centavo": "A cent",
+  "item.moedahcbr.dez_centavos": "10 cents",
+  "item.moedahcbr.vinte_e_cinco_centavos": "25 cents"
 }
