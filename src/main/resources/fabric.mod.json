@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "moedahcbr",
+  "version": "${version}",
+
+  "name": "Moeda do Hermitcraft",
+  "description": "Esse mod adiciona as moedas e notas do Hermitcraft Brasil.",
+  "authors": [
+    "Dudu_YT"
+  ],
+  "contact": {
+    "homepage": "https://bit.ly/GrupoEMQSA",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/moedahcbr/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.emqsagit.moedahcbr.MoedaHcbr"
+    ]
+  },
+  "mixins": [
+    "moedahcbr.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
